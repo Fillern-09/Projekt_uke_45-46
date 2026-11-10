@@ -14,12 +14,13 @@ main {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 40px;
 }
 
 nav a {
     color: #222222;
     text-decoration: none;
-    margin-rigth: 20px;
+    margin-right: 20px;
     font-size: 16px;
 }
 
@@ -29,4 +30,10 @@ nav {
 
 header {
     margin-bottom: 60px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555555;
 }
