@@ -70,3 +70,17 @@ main p {
     max-width: 750px;
     border-radius: 10px;
 }
+
+.om-meg {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.om-meg img {
+    width: 250px;
+    max-width: 100%;
+    heigth: auto;
+    border-radius: 12px;
+}
