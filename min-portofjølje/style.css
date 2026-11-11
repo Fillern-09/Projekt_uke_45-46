@@ -57,3 +57,10 @@ main p {
     aspect-ratio: 4 / 3;
     object-fit: cover;
 }
+
+.prosjektbilde {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 10px;
+}
