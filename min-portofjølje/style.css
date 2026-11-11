@@ -64,3 +64,9 @@ main p {
     height: auto;
     border-radius: 10px;
 }
+
+.prosjektvideo {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+}
