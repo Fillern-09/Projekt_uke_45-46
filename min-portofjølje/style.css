@@ -50,7 +50,13 @@ main p {
     padding: 20px;
     border-radius: 10px;
     flex: 0 1 220px;
+    transition: transform 0.2s;
 }
+
+.kort:hover {
+    transform: scale(1.05);
+}
+
 .kort img {
     width: 100%;
     border-radius: 8px;
@@ -81,7 +87,7 @@ main p {
 .om-meg img {
     width: 220px;
     max-width: 100%;
-    heigth: auto;
+    height: auto;
     border-radius: 12px;
 }
 
