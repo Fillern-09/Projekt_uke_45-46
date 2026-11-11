@@ -6,5 +6,28 @@
     <title>Kontakt meg</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<h1>Kontakt meg her:</h1>
-<p>E-post: filand09@gvgs.no</p>
+<body>
+     <header>
+
+        <nav class="conteiner">
+    <a href="index.html">Forsiden</a>
+
+   <a href="prosjekter.html">Mine prosjekter</a>
+
+   <a href="Om-meg.html">Om meg</a>
+
+   <a href="Kontakt-meg.html">Kontakt meg</a>
+</nav>
+      </header>
+    <main>
+<h1>Vil du kontakte meg?</h1>
+
+<form action="mailto:filand09@gvgs.no" method="post" enctype="text/plain">
+        <input type="text" name="Navn" placeholder="Navnet ditt" required>
+        <input type="email" name="Epost" placeholder="Din epost" required>
+        <textarea name="Melding" placeholder="Skriv en medling" required></textarea>
+        <button type="submit">Send melding</button>
+        </form>
+</main>
+</body>
+</html>
